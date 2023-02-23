@@ -1,0 +1,15 @@
+Variable phrase en Caractère
+Variables Nb, i en Entier
+
+Debut
+    Ecrire « Entrez une phrase :  »
+    Lire phrase
+    Nb ← 0
+    Pour i ← 1 à Len(phrase)
+        Si Mid(phrase, i , 1) =  »  » Alors
+            Nb ← Nb + 1
+        FinSi
+        i suivant
+        Ecrire « Cette phrase compte « , Nb + 1,  » mots »
+    finpour
+Fin

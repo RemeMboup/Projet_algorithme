@@ -1,0 +1,14 @@
+Algorithme qui compte le nombre de voyelle
+text:chaine de caractere
+Fonction nbr_voyelle(text): entier
+variables 
+i, nbr: entier;
+Debut
+    nbr <- 0;
+    pour i <- à longueur(text)-1
+        si text[i] = 'a' ou text[i] = 'o' ou text[i] = 'i' ou text[i] = 'e' ou text[i] = 'u' ou text[i] = 'y'
+            nbr = nbr + 1
+        finsi
+    finpour
+    Retourne nbr
+fin

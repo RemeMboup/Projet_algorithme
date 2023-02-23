@@ -1,0 +1,15 @@
+Fonction Nombre de caracteres
+Var chaîne Msg, Carac
+Var entier nb-car, taille, position
+Début
+  Lire("Saisir votre message",Msg)
+  nb-car=0
+  Taille=longueur(Msg)
+  Pour position=1 à Taille
+    carac - sschaine(Msg,position,1)
+    Si carac <> "esp" alors
+      nb-carac = nb-carac+1
+    fin si
+  fin pour
+  Afficher ("il y a "nb-car)
+Fin
